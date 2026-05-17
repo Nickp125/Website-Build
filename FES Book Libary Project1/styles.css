@@ -143,6 +143,9 @@ li {
     color: white;
 }
 
+
+
+
 /* Landing */
 
 #landing {
@@ -301,7 +304,7 @@ button:active {
     flex-wrap: wrap;
 }
 
-.book{
+.book {
     width: 25%;
     padding: 24px;
 }
@@ -375,6 +378,19 @@ footer {
 
 .footer__link {
     padding: 0 8px;
+}
+
+/* BOOKS PAGE */
+
+.books__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.books__header--title {
+    margin-bottom: 0;
 }
 
 /*Small Phones, Tablets, Large Smartphones*/
