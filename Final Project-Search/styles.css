@@ -34,20 +34,32 @@ li {
     height: 100%;
 }
 
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__links {
+    display: flex;
+    width: 100%;
+    max-width: 430px;
+}
+
 .nav__link {
     margin-left: 16px;
     text-decoration: none;
-    color: #0b1d51;
-    font-size: 20px;
-    transition: all 300ms ease;
+    font-size: 24px;
+    color: #6030b1;
 }
 
 .nav__link:hover {
     text-decoration: underline;
+    transition: all 300ms ease;
 }
 
 .title__logo {
     font-size: 24px;
     font-weight: 600;
-    color: #0b1d51;
+    color: #6030b1;
 }
