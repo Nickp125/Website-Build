@@ -67,3 +67,35 @@ li {
     font-weight: 600;
     color: #6030b1;
 }
+
+/* LANDING PAGE */
+
+#landing-page {
+    display: flex;
+    padding: 50px 20px;
+}
+
+.landing__content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.landing__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #6030b1;
+}
+
+.landing__subtitle {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #6030b1;
+}
+
+.landing__description {
+    font-size: 24px;
+    font-weight: 400;
+}
